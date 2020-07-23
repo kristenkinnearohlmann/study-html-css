@@ -1,0 +1,67 @@
+/* Styles for Day 2 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+p {
+    color: red;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+h2, h3, .bigbold, a:link {
+    color: orange;
+}
+
+/* unvisited link */
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:visited {
+    color: green;
+    font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: grey;
+}
+
+a.harvard:link {
+    color: maroon;
+}
+
+p:hover {
+    background-color: orange;
+    color: white;
+}

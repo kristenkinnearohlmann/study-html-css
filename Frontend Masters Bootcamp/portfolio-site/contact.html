@@ -15,9 +15,39 @@
             </ul>
         </nav>
         <main>
-            <form action="" method="">
-                
-            </form>
+            <p>I'm interested in hearing from you! Let's connect and have a chat.</a>
+            <section id="contact-form">
+                <form action="" method="POST">
+                    <input type="hidden" name="send-to" value="kristenkinnearohlmann@gmail.com">
+                    <fieldset>
+                        <legend>Your contact information</legend>
+                        <label for="name">Name</label><input type="text" id="name" name="name">
+                        <label for="email">Email</label><input type="email" id="email" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Contact method and topic(s)</legend>
+                        <label for="contacttype">How do you prefer to be contacted?</label>
+                        <select id="contacttype" name="contacttype">
+                            <option selected></option>
+                            <option value="contactemail">Email</option>
+                            <option value="contactzoom">Zoom</option>
+                            <option value="contactskype">Skype</option>
+                        </select>
+                        <label for="topic">What topic(s) are you interested in?</label>
+                        <label><input type="checkbox" name="topictype" value="frontend">HTML, CSS, Javascript</label>
+                        <label><input type="checkbox" name="topictype" value="backend">Ruby, PHP</label>
+                        <label><input type="checkbox" name="topictype" value="python">Python</label>
+                        <label><input type="checkbox" name="topictype" value="db">Databases both SQL and NoSQL</label>
+                        <label><input type="checkbox" name="topictype" value="run">Running</label>
+                        <label><input type="checkbox" name="topictype" value="lang">French, Spanish, Portuguese or Italian</label>
+                        <label><input type="checkbox" name="topictype" value="food">Vegetarian cooking and baking</label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="yourinfo">Tell me something about you!</label><textarea id="yourinfo" name="yourinfo"></textarea>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
         </main>
     </body>
 </html>

@@ -30,3 +30,50 @@ nav a {
 nav a:hover {
     background-color: #FFF;
 }
+
+#contact-form {
+    background-color: rgba(255,255,255,0.075); /* white, 50% transparency */
+    border: solid 3px ivory;
+    color: darkslategrey;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+input:not([type="checkbox"]), select, textarea {
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+}
+
+#contacttype {
+    width: 33%;
+}
+
+#aboutyou {
+    width: 66%;
+    height: 3.5rem;
+}
+
+button[type="submit"] {
+    border-radius: 2px;
+    border: 2px solid #FFF;
+    color: darkgrey;   
+    font-size: 1.125rem; 
+    padding: 0.5rem;   
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}

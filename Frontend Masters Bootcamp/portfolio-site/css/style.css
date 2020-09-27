@@ -4,6 +4,10 @@ body {
     color: darkgrey;
 }
 
+nav {
+    margin: 0 auto;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;

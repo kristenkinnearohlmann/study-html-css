@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url(../img/galaxy.jpg);
+	font-family: 'Caveat', cursive;	
 }
 .wrapper {
 	width: 80%;
